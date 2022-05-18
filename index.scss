@@ -320,14 +320,55 @@ $color4: #ecdbba;
     align-self: auto;
     order: 0;
   }
-/* contacto */
+
+$contactos: (
+  contacto1: cursive,
+  contacto2: fantasy,
+  contacto3: fantasy,
+  contacto4: fantasy
+);
+@each $contacto, $font in $contactos {
+  .btn--#{$contacto}{
+    margin: 20px;
+    color: $color1;
+    font-size: 20px;
+    font-family: $font;
+  }
+}
+.btn--contacto1{
+  color: $color3;
+}
 .containercontacto{
   display: block;
   flex-direction: column;
   flex-wrap: wrap;
 }
-.contacto{
-height: 50px;
-width: 300px;
-margin: 10px;
+
+/* comentarios de seccion usadas */
+.comentarios{
+  font-size: 50px;
+  color: $color2;
+  font-family: cursive;
+}
+.comentarios2{
+  @extend .comentarios;
+  background-color: $color3;
+}
+/* comentarios de motos 0km */
+
+.motos{
+  background-color: $color2;
+  font-size: 20px;
+  color: $color3;
+}
+@mixin sizes ($height, $width, $bcolor) {
+  height: $height;
+  width: $width;
+  background-color: $bcolor;
+}
+.motos{
+  @include sizes(100px, 100% , $color2 )
+}
+.motos2{
+  @include sizes(100px, 100% , $color2 )
 }
