@@ -296,8 +296,8 @@ $color4: #ecdbba;
   /* mapas */
   .flex-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: normal;
     align-items: normal;
     align-content: normal;
