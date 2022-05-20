@@ -304,22 +304,47 @@ $color4: #ecdbba;
   }
   
   .flex-items:nth-child(1) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
+       overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
   }
   
-  .flex-items:nth-child(2) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
+  .flex-items:nth-child(1) iframe {
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
   }
+  .flex-items:nth-child(2) {
+    overflow:hidden;
+
+ padding-bottom:56.25%;
+
+ position:relative;
+
+ height:0;
+}
+
+.flex-items:nth-child(2) iframe {
+ left:0;
+
+ top:0;
+
+ height:100%;
+
+ width:100%;
+
+ position:absolute;
+}
 
 $contactos: (
   contacto1: cursive,
