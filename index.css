@@ -353,38 +353,7 @@
   position: absolute;
 }
 
-.btn--contacto1 {
-  margin: 20px;
-  color: #191919;
-  font-size: 20px;
-  font-family: cursive;
-}
-
-.btn--contacto2 {
-  margin: 20px;
-  color: #191919;
-  font-size: 20px;
-  font-family: fantasy;
-}
-
-.btn--contacto3 {
-  margin: 20px;
-  color: #191919;
-  font-size: 20px;
-  font-family: fantasy;
-}
-
-.btn--contacto4 {
-  margin: 20px;
-  color: #191919;
-  font-size: 20px;
-  font-family: fantasy;
-}
-
-.btn--contacto1 {
-  color: #c84b31;
-}
-
+/* contacto */
 .containercontacto {
   display: block;
   -webkit-box-orient: vertical;
@@ -395,6 +364,11 @@
       flex-wrap: wrap;
 }
 
+.btn--contacto {
+  font-size: 25px;
+}
+
+/* fin contacto */
 /* comentarios de seccion usadas */
 .comentarios, .comentarios2 {
   font-size: 50px;
@@ -440,7 +414,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 1.6%;
-  background: #c84b31;
   line-height: 1.4;
   font-family: sans-serif;
   border-radius: 5px;
@@ -540,7 +513,6 @@
 
 .blog-card .description {
   padding: 1rem;
-  background: #ecdbba;
   position: relative;
   z-index: 1;
 }

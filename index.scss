@@ -2,8 +2,6 @@ $color1: #191919;
 $color2: #2d4263;
 $color3: #c84b31;
 $color4: #ecdbba;
-
-
 /* footer nuevo */
 .pie-pagina{
     width: 100%;
@@ -345,29 +343,16 @@ $color4: #ecdbba;
 
  position:absolute;
 }
-
-$contactos: (
-  contacto1: cursive,
-  contacto2: fantasy,
-  contacto3: fantasy,
-  contacto4: fantasy
-);
-@each $contacto, $font in $contactos {
-  .btn--#{$contacto}{
-    margin: 20px;
-    color: $color1;
-    font-size: 20px;
-    font-family: $font;
-  }
-}
-.btn--contacto1{
-  color: $color3;
-}
+/* contacto */
 .containercontacto{
   display: block;
   flex-direction: column;
   flex-wrap: wrap;
 }
+.btn--contacto{
+  font-size: 25px;
+}
+/* fin contacto */
 
 /* comentarios de seccion usadas */
 .comentarios{
@@ -402,7 +387,7 @@ $contactos: (
   display: flex;
   flex-direction: column;
   margin-bottom: 1.6%;
-  background: $color3;
+  
   line-height: 1.4;
   font-family: sans-serif;
   border-radius: 5px;
@@ -487,7 +472,6 @@ $contactos: (
   }
   .description {
     padding: 1rem;
-    background: $color4;
     position: relative;
     z-index: 1;
     h1,
@@ -595,7 +579,6 @@ $contactos: (
   flex-direction: column;
 
 }
-
 
 
 
