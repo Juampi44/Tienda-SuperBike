@@ -2,15 +2,20 @@ $color1: #191919;
 $color2: #2d4263;
 $color3: #c84b31;
 $color4: #ecdbba;
+body{
+  min-height: 100vh;
+}
 /* footer nuevo */
 .pie-pagina{
     width: 100%;
     background-color: $color1;
-    position: absolute;
+    position: sticky;
+    top: 100%;
+    
   }
   .pie-pagina .grupo-1{
     width: 100%;
-    max-width: 1200px;
+    
     margin: auto;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
