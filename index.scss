@@ -359,21 +359,6 @@ body{
   font-size: 25px;
 }
 /* fin contacto */
-
-/* comentarios de seccion usadas */
-.comentarios{
-  font-size: 50px;
-  color: $color2;
-  font-family: cursive;
-}
-.comentarios2{
-  @extend .comentarios;
-  background-color: $color3;
-}
-/* comentarios de motos 0km */
-
-
-/* fin de seccion de noticias */
 /* tarjetas de marcas de motos */
 .container2{
   display: flex;
